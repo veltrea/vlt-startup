@@ -1,7 +1,8 @@
 # vlt-tools - Windows Startup Management Suite v0.1.0
 
-Windows 11 でアクセスが面倒になったスタートアップフォルダや、複数の登録方法（フォルダ、レジストリ、タスクスケジューラ）を、コマンドラインから一括して効率的に管理するためのツールセットです。
-直感的なフラグ操作により、環境構築やスクリプトからの自動設定を容易にします。
+Windows 11 でアクセスが面倒になったスタートアップ管理を、コマンドラインから効率化するためのツール群です。
+
+「ログイン時に特定のプログラムを起動する」というシンプルな目的を確実に達成するため、Windows の将来的な仕様変更（スタートアップフォルダやレジストリの廃止など）を見据え、現在利用可能な 3 つの主要な手法（フォルダ、レジストリ、タスクスケジューラ）を選択できるようにしています。
 
 - **Repository**: [https://github.com/veltrea/vlt-startup](https://github.com/veltrea/vlt-startup)
 - **Author**: veltrea <veltrea@outlook.com>
