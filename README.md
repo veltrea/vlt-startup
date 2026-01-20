@@ -1,7 +1,7 @@
 # vlt-tools - Windows Startup Management Suite v0.1.0
 
 Windows の自動起動設定を目的別に、直感的に管理するためのコマンドラインツールセットです。
-覚えにくいサブコマンド形式を廃止し、可読性の高い `-a, --add` などのフラグ形式を採用しています。
+可読性の高い `-a, --add` などのフラグ形式を採用し、効率的なスクリプト作成をサポートします。
 
 - **Repository**: [https://github.com/veltrea/vlt-startup](https://github.com/veltrea/vlt-startup)
 - **Author**: veltrea <veltrea@outlook.com>
