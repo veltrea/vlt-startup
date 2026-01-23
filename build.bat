@@ -10,8 +10,8 @@ cl.exe /EHsc /O2 /W3 src/vlt-startup.cpp /Febin/vlt-startup.exe /Isrc Ole32.lib 
 echo Compiling vlt-autorun (Registry method)...
 cl.exe /EHsc /O2 /W3 src/vlt-autorun.cpp /Febin/vlt-autorun.exe /Isrc Advapi32.lib Shlwapi.lib
 
-echo Compiling vlt-schtask (Task method)...
-cl.exe /EHsc /O2 /W3 src/vlt-schtask.cpp /Febin/vlt-schtask.exe /Isrc Advapi32.lib Shlwapi.lib User32.lib
+echo Compiling vlt-task (Task method)...
+cl.exe /EHsc /O2 /W3 src/vlt-task.cpp /Febin/vlt-task.exe /Isrc /I. Advapi32.lib Shlwapi.lib User32.lib Ole32.lib OleAut32.lib
 
 if %ERRORLEVEL% equ 0 (
     echo All tools build successful in bin/ directory.

@@ -22,6 +22,8 @@ void PrintUsage() {
 }
 
 int wmain(int argc, wchar_t *argv[]) {
+  _wsetlocale(LC_ALL, L"Japanese");
+
   if (argc < 2) {
     PrintUsage();
     return 1;
